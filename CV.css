@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    min-height: 600px;
+    font-size: 16px;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    text-align: center;
+}
+
+.tag {
+    background-color: rgb(195,195,195);
+    font-weight: bold;
+    padding-bottom: 0.1em;
+    text-indent: 4px;
+    width: 100%;
+}
+
+.in {
+    width: 4px;
+    height: 1.41em;
+    background-color: black;
+    float: left;
+}
+
+.left {
+    font-weight: bold;
+    margin-left: 4em;
+}
+
+.right {
+    font-weight: bold;
+    float: right;
+}
+
+ul {
+    margin-left: 10em;
+}
