@@ -11,3 +11,8 @@ html简历任务
 三种简历样式任务    
 同一个HTML文件中通过不同的CSS实现不同的样式达到了HTML与CSS的解耦.  
 附: resume.html style_1.html style_2.html style_3.html   
+
+2018.5.7   
+学习布局任务   
+参考设计稿实现HTML页面以及CSS样式   
+附: layout.html layout.css  layout.png(设计稿)  
