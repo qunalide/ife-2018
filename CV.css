@@ -79,3 +79,7 @@ p {
 ul {
     margin-left: 10em;
 }
+
+#dis {
+    display: none;
+}

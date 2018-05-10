@@ -15,4 +15,9 @@ html简历任务
 2018.5.7   
 学习布局任务   
 参考设计稿实现HTML页面以及CSS样式   
-附: layout.html layout.css  layout.png(设计稿)  
+附: layout.html layout.css layout.png(设计稿)  
+
+2018.5.10  
+给简历添加JS事件  
+在简历中增加一些按钮，在Console或者是页面节点来展示一段特殊内容  
+附: CV.html CV.css CV.js    
