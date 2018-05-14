@@ -21,3 +21,8 @@ html简历任务
 给简历添加JS事件  
 在简历中增加一些按钮，在Console或者是页面节点来展示一段特殊内容  
 附: CV.html CV.css CV.js    
+
+2018.5.14  
+网页切图任务一  
+将设计稿切分成图片,并且按照设计稿来实现HTML页面  
+附: website_1文件夹 index.html css.css 图片素材pic文件夹 website_1.jpg(设计稿)  
