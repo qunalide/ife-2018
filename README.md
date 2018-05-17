@@ -26,3 +26,8 @@ html简历任务
 网页切图任务一  
 将设计稿切分成图片,并且按照设计稿来实现HTML页面  
 附: website_1文件夹 index.html css.css 图片素材pic文件夹 website_1.jpg(设计稿)  
+
+2018.5.17  
+JS循环练习  
+编写几个需求函数  
+附: js_16.html js_16.js   
