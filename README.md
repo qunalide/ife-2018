@@ -28,6 +28,11 @@ html简历任务
 附: website_1文件夹 index.html css.css 图片素材pic文件夹 website_1.jpg(设计稿)  
 
 2018.5.17  
-JS循环练习  
-编写几个需求函数  
+JS简单循环练习   
+完成注释中的任务要求    
 附: js_16.html js_16.js   
+
+2018.5.18  
+JS简单DOM操作  
+完成注释中的任务要求  
+附: js_19.html   
