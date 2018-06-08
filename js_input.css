@@ -23,3 +23,7 @@
 #email-sug-wrapper>li:hover {
     background-color: #66ccff;
 }
+
+#email-sug-wrapper .active {
+    background-color: #39c5bb;
+}

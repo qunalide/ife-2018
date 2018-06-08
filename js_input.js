@@ -11,6 +11,33 @@ emailInput.oninput = function() {
     emailClick();
 }
 
+let index = 0;
+
+emailInput.addEventListener("keyup", function(key) {
+    if (key.keyCode == 38 || key.keyCode == 40 || key.keyCode == 13 || key.keyCode == 27) {
+        let l = emailLi.length;
+        let last = l - 1;
+        if (key.keyCode == 13) {  // 回车选中当前
+            let text = emailLi[index].textContent;
+            emailInput.value = text;
+            emailList.style.display = "none";
+        }
+        if (key.keyCode == 27) {  // ESC全选
+            emailInput.select();
+            emailList.style.display = "none";
+        }
+
+        emailLi[index].classList.remove("active");
+        if (key.keyCode == 38) {  // 向上
+            index = index === 0 ? last : index - 1;
+        }
+        else {  // 向下
+            index = index === last ? 0 : index + 1;
+        }
+        emailLi[index].classList.add("active");
+    }
+})
+
 function getInput() {
     return emailInput.value.replace(/^\s+|\s+$/gm,'');
 }
@@ -20,6 +47,10 @@ function createList() {
         for (let i = 0; i < postfixList.length; i++) {
             let li = document.createElement("li");
             emailList.appendChild(li);
+            // 添加默认焦点
+            if (i == 0) {
+                emailLi[i].classList.add("active");
+            }
         }
     }
 }
@@ -56,6 +87,11 @@ function emailClick() {
             let text = emailLi[i].textContent;
             emailInput.value = text;
             emailList.style.display = "none";
+            emailInput.focus();
         }
     }
+}
+
+window.onload = function() {
+    emailInput.focus();
 }
